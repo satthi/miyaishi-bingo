@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Rumburak';
+    src: url('Rumburak.ttf') format('truetype');
+}
+body {
+    font-family: 'Rumburak';
+    background-color: #ACE;
+}
+
+#content{
+    width: 1000px;
+    margin: 0 auto;
+    height: 600px;
+}
+
+#header{
+    width: 1000px;
+    height: 50px;
+    position:relative;
+}
+#header-yoshitaka{
+    position:absolute;
+    top: 5px;
+    left : 130px;
+    font-size: 35px;
+    color: #496;
+    z-index: 100;
+    text-shadow: 5px 5px 1px #999999;
+}
+#header-miyu{
+    position:absolute;
+    top: 52px;
+    left : 130px;
+    font-size: 35px;
+    color: #FE2EF7;
+    z-index: 100;
+    text-shadow: 5px 5px 1px #999999;
+}
+#header-happy{
+    position:absolute;
+    top: 5px;
+    right : 130px;
+    font-size: 35px;
+    color: #496;
+    z-index: 100;
+    text-shadow: 5px 5px 1px #999999;
+}
+#header-wedding{
+    position:absolute;
+    top: 52px;
+    right : 130px;
+    font-size: 35px;
+    color: #FE2EF7;
+    z-index: 100;
+    text-shadow: 5px 5px 1px #999999;
+}
+#header-bingo{
+    position:absolute;
+    top: -10px;
+    left : 400px;
+    font-size: 75px;
+    color: #F4FA58;
+    z-index: 100;
+    text-shadow: 5px 5px 1px #999999;
+}
+
+
+#left-side{
+    width: 200px;
+    height: 550px;
+    float:left;
+    margin-top: 50px;
+}
+
+#main{
+    width: 600px;
+    height: 600px;
+    float:left;
+    position:relative;
+    z-index: 80;
+}
+
+#right-side{
+    width: 200px;
+    margin: 0 auto;
+    height: 550px;
+    float:left;
+    margin-top: 50px;
+}
+
+#left-side .ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #FFF;
+    margin-top: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+
+#right-side .ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #FFF;
+    margin-top: 10px;
+    font-size: 70px;
+    text-align: center;
+}
+
+#right-side .ball {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #FFF;
+    margin: 2px;
+    font-size: 28px;
+    text-align: center;
+    float:left;
+}
+
+#right-side .ball:nth-child(5n+1) {
+    clear:both;
+}
+
+.number{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    font-size: 400px;
+    width: 600px;
+    text-align: center;
+    background-color: rgba( 255, 255, 255, 0.55 );
+    height: 600px;
+}
+.number_image{
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 80;
+}
+
+.
